@@ -26,6 +26,9 @@
 	    .navi { 
 			background: #123c69; height: 55px
 		}
+		.center {
+			text-align: center;
+		}
 	</style>
 	<div class="navi">
 		<ul>
@@ -43,7 +46,7 @@
 			</li>
 		</ul>
 	</div>
-	<center>
+	<div class="center">
 		<?php 
 		    $FIRST_IDX = 0;
 			$numOfSpaces = 8;
@@ -52,8 +55,8 @@
 			}
 		?>
 		<img src="inpostor.png" width="200px height="200px /> <br>
-		<font Size="6" face="verdana">Sistem Informasi Mahasiswa</font> <br>
-		<font Size="6" face="verdana">Teknik Informatika 2020</font>
-	</center>
+		<p>Sistem Informasi Mahasiswa</p>
+		<p>Teknik Informatika 2020</p>
+	</div>
 </body>
 </html>
