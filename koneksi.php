@@ -1,4 +1,5 @@
 <?php
+// meta data about RDBMS
 $host = "localhost";
 $user = "root";
 $password = "";
