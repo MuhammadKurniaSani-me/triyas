@@ -28,6 +28,7 @@
 		}
 		.center {
 			text-align: center;
+			display: block;
 		}
 	</style>
 	<div class="navi">
